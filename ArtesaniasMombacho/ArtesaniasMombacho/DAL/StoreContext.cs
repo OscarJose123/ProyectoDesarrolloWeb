@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using ArtesaniasMombacho.Models;
+using System.Data.Entity;
+
+namespace ArtesaniasMombacho.DAL
+{
+    public class StoreContext:DbContext
+    {
+        public DbSet<Product> Products { get; set; }
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<Image> Images { get; set; }
+
+
+    }
+}
