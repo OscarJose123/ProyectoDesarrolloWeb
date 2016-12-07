@@ -16,7 +16,7 @@ namespace ArtesaniasMombacho.Models
         [Required(ErrorMessage = "Es requerido ingresar el nombre de la categoria")]
         [StringLength(50, ErrorMessage = "El nombre de la categoria no debe ser mayor a 50 caracteres")]
         public string Name { get; set; }
-        public int? CategoryId { get; set; }
+        
        
 
     }

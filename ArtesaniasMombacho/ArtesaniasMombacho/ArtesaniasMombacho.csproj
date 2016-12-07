@@ -180,6 +180,14 @@
     <Compile Include="Migrations\201612031811104_AddingClassesAndController.Designer.cs">
       <DependentUpon>201612031811104_AddingClassesAndController.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201612051942258_Products.cs" />
+    <Compile Include="Migrations\201612051942258_Products.Designer.cs">
+      <DependentUpon>201612051942258_Products.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201612052054321_nuevoModelo.cs" />
+    <Compile Include="Migrations\201612052054321_nuevoModelo.Designer.cs">
+      <DependentUpon>201612052054321_nuevoModelo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Category.cs" />
@@ -192,6 +200,10 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\ArtesaniasMombacho.mdf" />
+    <Content Include="App_Data\ArtesaniasMombacho_log.ldf">
+      <DependentUpon>ArtesaniasMombacho.mdf</DependentUpon>
+    </Content>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
@@ -246,12 +258,18 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Categories\Create.cshtml" />
+    <Content Include="Views\Categories\Delete.cshtml" />
+    <Content Include="Views\Categories\Details.cshtml" />
+    <Content Include="Views\Categories\Edit.cshtml" />
+    <Content Include="Views\Categories\Index.cshtml" />
+    <Content Include="Views\Products\Create.cshtml" />
+    <Content Include="Views\Products\Delete.cshtml" />
+    <Content Include="Views\Products\Details.cshtml" />
+    <Content Include="Views\Products\Edit.cshtml" />
+    <Content Include="Views\Products\Index.cshtml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-    <Folder Include="Views\Categories\" />
-    <Folder Include="Views\Products\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -263,6 +281,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201612031811104_AddingClassesAndController.resx">
       <DependentUpon>201612031811104_AddingClassesAndController.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612051942258_Products.resx">
+      <DependentUpon>201612051942258_Products.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612052054321_nuevoModelo.resx">
+      <DependentUpon>201612052054321_nuevoModelo.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

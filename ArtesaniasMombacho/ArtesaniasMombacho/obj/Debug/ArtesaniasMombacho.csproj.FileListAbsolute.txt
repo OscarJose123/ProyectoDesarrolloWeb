@@ -88,3 +88,5 @@ C:\Users\DELL\Source\Repos\ProyectoDesarrolloWeb\ArtesaniasMombacho\ArtesaniasMo
 C:\Users\DELL\Source\Repos\ProyectoDesarrolloWeb\ArtesaniasMombacho\ArtesaniasMombacho\obj\Debug\ArtesaniasMombacho.pdb
 C:\Users\DELL\Source\Repos\ProyectoDesarrolloWeb\ArtesaniasMombacho\ArtesaniasMombacho\obj\Debug\ArtesaniasMombacho.Migrations.AddingClassesAndController.resources
 C:\Users\DELL\Source\Repos\ProyectoDesarrolloWeb\ArtesaniasMombacho\ArtesaniasMombacho\obj\Debug\ArtesaniasMombacho.csproj.GenerateResource.Cache
+C:\Users\DELL\Source\Repos\ProyectoDesarrolloWeb\ArtesaniasMombacho\ArtesaniasMombacho\obj\Debug\ArtesaniasMombacho.Migrations.Products.resources
+C:\Users\DELL\Source\Repos\ProyectoDesarrolloWeb\ArtesaniasMombacho\ArtesaniasMombacho\obj\Debug\ArtesaniasMombacho.Migrations.nuevoModelo.resources

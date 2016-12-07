@@ -8,6 +8,7 @@ namespace ArtesaniasMombacho.Models
     public enum FileType
     {
 
-        Avatar = 1, Photo
+        Avatar = 1, Photo,
+        Report = 2, File
     }
 }

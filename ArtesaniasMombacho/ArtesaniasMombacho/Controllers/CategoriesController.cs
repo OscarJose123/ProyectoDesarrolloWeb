@@ -47,7 +47,7 @@ namespace ArtesaniasMombacho.Controllers
         // más información vea http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,Name,CategoryId")] Category category)
+        public ActionResult Create([Bind(Include = "Id,Name")] Category category)
         {
             if (ModelState.IsValid)
             {
@@ -79,7 +79,7 @@ namespace ArtesaniasMombacho.Controllers
         // más información vea http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,Name,CategoryId")] Category category)
+        public ActionResult Edit([Bind(Include = "Id,Name")] Category category)
         {
             if (ModelState.IsValid)
             {
